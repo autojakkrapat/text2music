@@ -5,6 +5,7 @@ import torchaudio
 import os 
 import numpy as np
 import base64
+os.system("pip install encodec demucs")
 
 @st.cache_resource
 def load_model():
